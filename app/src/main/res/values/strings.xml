@@ -5,4 +5,6 @@
     <string name="action_settings">Settings</string>
 
     <string name="contentDescription">Botones conecta 4</string>
+    <string name="advicePositionNotAvailable">Posición no disponible</string>
+
 </resources>

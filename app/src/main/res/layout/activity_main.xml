@@ -15,460 +15,185 @@
         android:layout_height="wrap_content"
         android:textSize="20sp"/>
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:orientation="horizontal">
+    <LinearLayout style="@style/C4Row">
         <ImageButton
-            android:layout_height="match_parent"
-            android:layout_width="0dp"
-            android:layout_weight="1"
             android:id="@+id/item11"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
-            android:scaleType="centerInside"
-            android:adjustViewBounds="true"
+            style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
         <ImageButton
-            android:layout_height="match_parent"
-            android:layout_width="0dp"
-            android:layout_weight="1"
             android:id="@+id/item12"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
-            android:scaleType="centerInside"
-            android:adjustViewBounds="true"
+            style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
         <ImageButton
-            android:layout_height="match_parent"
-            android:layout_width="0dp"
-            android:layout_weight="1"
             android:id="@+id/item13"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
-            android:scaleType="centerInside"
-            android:adjustViewBounds="true"
+            style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
         <ImageButton
-            android:layout_height="match_parent"
-            android:layout_width="0dp"
-            android:layout_weight="1"
             android:id="@+id/item14"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
-            android:scaleType="centerInside"
-            android:adjustViewBounds="true"
+            style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
         <ImageButton
-            android:layout_height="match_parent"
-            android:layout_width="0dp"
-            android:layout_weight="1"
             android:id="@+id/item15"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
-            android:scaleType="fitCenter"
-            android:adjustViewBounds="true"
+            style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
         <ImageButton
-            android:layout_height="match_parent"
-            android:layout_width="0dp"
-            android:layout_weight="1"
             android:id="@+id/item16"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
-            android:scaleType="centerInside"
-            android:adjustViewBounds="true"
+            style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
         <ImageButton
-            android:layout_height="match_parent"
-            android:layout_width="0dp"
-            android:layout_weight="1"
             android:id="@+id/item17"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
-            android:scaleType="centerInside"
-            android:adjustViewBounds="true"
+            style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
     </LinearLayout>
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:orientation="horizontal">
+    <LinearLayout style="@style/C4Row">
         <ImageButton
-            android:layout_height="match_parent"
-            android:layout_width="0dp"
-            android:layout_weight="1"
             android:id="@+id/item21"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
-            android:scaleType="centerInside"
-            android:adjustViewBounds="true"
+            style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
         <ImageButton
-            android:layout_height="match_parent"
-            android:layout_width="0dp"
-            android:layout_weight="1"
             android:id="@+id/item22"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
-            android:scaleType="centerInside"
-            android:adjustViewBounds="true"
+            style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
         <ImageButton
-            android:layout_height="match_parent"
-            android:layout_width="0dp"
-            android:layout_weight="1"
             android:id="@+id/item23"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
-            android:scaleType="centerInside"
-            android:adjustViewBounds="true"
+            style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
         <ImageButton
-            android:layout_height="match_parent"
-            android:layout_width="0dp"
-            android:layout_weight="1"
             android:id="@+id/item24"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
-            android:scaleType="centerInside"
-            android:adjustViewBounds="true"
+            style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
         <ImageButton
-            android:layout_height="match_parent"
-            android:layout_width="0dp"
-            android:layout_weight="1"
             android:id="@+id/item25"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
-            android:scaleType="fitCenter"
-            android:adjustViewBounds="true"
+            style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
         <ImageButton
-            android:layout_height="match_parent"
-            android:layout_width="0dp"
-            android:layout_weight="1"
             android:id="@+id/item26"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
-            android:scaleType="centerInside"
-            android:adjustViewBounds="true"
+            style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
         <ImageButton
-            android:layout_height="match_parent"
-            android:layout_width="0dp"
-            android:layout_weight="1"
             android:id="@+id/item27"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
-            android:scaleType="centerInside"
-            android:adjustViewBounds="true"
+            style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
     </LinearLayout>
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:orientation="horizontal">
+    <LinearLayout style="@style/C4Row">
         <ImageButton
-            android:layout_height="match_parent"
-            android:layout_width="0dp"
-            android:layout_weight="1"
             android:id="@+id/item31"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
-            android:scaleType="centerInside"
-            android:adjustViewBounds="true"
+            style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
         <ImageButton
-            android:layout_height="match_parent"
-            android:layout_width="0dp"
-            android:layout_weight="1"
             android:id="@+id/item32"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
-            android:scaleType="centerInside"
-            android:adjustViewBounds="true"
+            style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
         <ImageButton
-            android:layout_height="match_parent"
-            android:layout_width="0dp"
-            android:layout_weight="1"
             android:id="@+id/item33"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
-            android:scaleType="centerInside"
-            android:adjustViewBounds="true"
+            style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
         <ImageButton
-            android:layout_height="match_parent"
-            android:layout_width="0dp"
-            android:layout_weight="1"
             android:id="@+id/item34"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
-            android:scaleType="centerInside"
-            android:adjustViewBounds="true"
+            style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
         <ImageButton
-            android:layout_height="match_parent"
-            android:layout_width="0dp"
-            android:layout_weight="1"
             android:id="@+id/item35"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
-            android:scaleType="fitCenter"
-            android:adjustViewBounds="true"
+            style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
         <ImageButton
-            android:layout_height="match_parent"
-            android:layout_width="0dp"
-            android:layout_weight="1"
             android:id="@+id/item36"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
-            android:scaleType="centerInside"
-            android:adjustViewBounds="true"
+            style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
         <ImageButton
-            android:layout_height="match_parent"
-            android:layout_width="0dp"
-            android:layout_weight="1"
             android:id="@+id/item37"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
-            android:scaleType="centerInside"
-            android:adjustViewBounds="true"
+            style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
     </LinearLayout>
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:orientation="horizontal">
+    <LinearLayout style="@style/C4Row">
         <ImageButton
-            android:layout_height="match_parent"
-            android:layout_width="0dp"
-            android:layout_weight="1"
             android:id="@+id/item41"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
-            android:scaleType="centerInside"
-            android:adjustViewBounds="true"
+            style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
         <ImageButton
-            android:layout_height="match_parent"
-            android:layout_width="0dp"
-            android:layout_weight="1"
             android:id="@+id/item42"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
-            android:scaleType="centerInside"
-            android:adjustViewBounds="true"
+            style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
         <ImageButton
-            android:layout_height="match_parent"
-            android:layout_width="0dp"
-            android:layout_weight="1"
             android:id="@+id/item43"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
-            android:scaleType="centerInside"
-            android:adjustViewBounds="true"
+            style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
         <ImageButton
-            android:layout_height="match_parent"
-            android:layout_width="0dp"
-            android:layout_weight="1"
             android:id="@+id/item44"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
-            android:scaleType="centerInside"
-            android:adjustViewBounds="true"
+            style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
         <ImageButton
-            android:layout_height="match_parent"
-            android:layout_width="0dp"
-            android:layout_weight="1"
             android:id="@+id/item45"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
-            android:scaleType="fitCenter"
-            android:adjustViewBounds="true"
+            style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
         <ImageButton
-            android:layout_height="match_parent"
-            android:layout_width="0dp"
-            android:layout_weight="1"
             android:id="@+id/item46"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
-            android:scaleType="centerInside"
-            android:adjustViewBounds="true"
+            style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
         <ImageButton
-            android:layout_height="match_parent"
-            android:layout_width="0dp"
-            android:layout_weight="1"
             android:id="@+id/item47"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
-            android:scaleType="centerInside"
-            android:adjustViewBounds="true"
+            style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
     </LinearLayout>
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:orientation="horizontal">
+    <LinearLayout style="@style/C4Row">
         <ImageButton
-            android:layout_height="match_parent"
-            android:layout_width="0dp"
-            android:layout_weight="1"
             android:id="@+id/item51"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
-            android:scaleType="centerInside"
-            android:adjustViewBounds="true"
+            style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
         <ImageButton
-            android:layout_height="match_parent"
-            android:layout_width="0dp"
-            android:layout_weight="1"
             android:id="@+id/item52"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
-            android:scaleType="centerInside"
-            android:adjustViewBounds="true"
+            style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
         <ImageButton
-            android:layout_height="match_parent"
-            android:layout_width="0dp"
-            android:layout_weight="1"
             android:id="@+id/item53"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
-            android:scaleType="centerInside"
-            android:adjustViewBounds="true"
+            style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
         <ImageButton
-            android:layout_height="match_parent"
-            android:layout_width="0dp"
-            android:layout_weight="1"
             android:id="@+id/item54"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
-            android:scaleType="centerInside"
-            android:adjustViewBounds="true"
+            style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
         <ImageButton
-            android:layout_height="match_parent"
-            android:layout_width="0dp"
-            android:layout_weight="1"
             android:id="@+id/item55"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
-            android:scaleType="fitCenter"
-            android:adjustViewBounds="true"
+            style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
         <ImageButton
-            android:layout_height="match_parent"
-            android:layout_width="0dp"
-            android:layout_weight="1"
             android:id="@+id/item56"
             android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
-            android:scaleType="centerInside"
-            android:adjustViewBounds="true"
+            style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
         <ImageButton
-            android:layout_height="match_parent"
-            android:layout_width="0dp"
-            android:layout_weight="1"
             android:id="@+id/item57"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
-            android:scaleType="centerInside"
-            android:adjustViewBounds="true"
+            style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
     </LinearLayout>
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:orientation="horizontal">
+    <LinearLayout style="@style/C4Row">
         <ImageButton
-            android:layout_height="match_parent"
-            android:layout_width="0dp"
-            android:layout_weight="1"
             android:id="@+id/item61"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
-            android:scaleType="centerInside"
-            android:adjustViewBounds="true"
+            style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
         <ImageButton
-            android:layout_height="match_parent"
-            android:layout_width="0dp"
-            android:layout_weight="1"
             android:id="@+id/item62"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
-            android:scaleType="centerInside"
-            android:adjustViewBounds="true"
+            style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
         <ImageButton
-            android:layout_height="match_parent"
-            android:layout_width="0dp"
-            android:layout_weight="1"
             android:id="@+id/item63"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
-            android:scaleType="centerInside"
-            android:adjustViewBounds="true"
+            style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
         <ImageButton
-            android:layout_height="match_parent"
-            android:layout_width="0dp"
-            android:layout_weight="1"
             android:id="@+id/item64"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
-            android:scaleType="centerInside"
-            android:adjustViewBounds="true"
+            style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
         <ImageButton
-            android:layout_height="match_parent"
-            android:layout_width="0dp"
-            android:layout_weight="1"
             android:id="@+id/item65"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
-            android:scaleType="fitCenter"
-            android:adjustViewBounds="true"
+            style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
         <ImageButton
-            android:layout_height="match_parent"
-            android:layout_width="0dp"
-            android:layout_weight="1"
             android:id="@+id/item66"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
-            android:scaleType="centerInside"
-            android:adjustViewBounds="true"
+            style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
         <ImageButton
-            android:layout_height="match_parent"
-            android:layout_width="0dp"
-            android:layout_weight="1"
             android:id="@+id/item67"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
-            android:scaleType="centerInside"
-            android:adjustViewBounds="true"
+            style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
     </LinearLayout>
 </LinearLayout>
