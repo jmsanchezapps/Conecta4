@@ -54,6 +54,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void pressed(View v)
     {
+        if (game.isFinished()) {
+            Toast.makeText(this, game.getResult(), Toast.LENGTH_LONG).show();
+            return;
+        }
+
         int id = v.getId();
         int row = this.getRowById(id);
         int column = this.getColumnById(id);
@@ -63,13 +68,24 @@ public class MainActivity extends AppCompatActivity {
 
         boolean validPosition = game.isPosiblePutPieceIn(row, column);
 
-        if(validPosition){
-            game.playPlayer2(row, column);
-            game.playPlayer1();
-            this.updateBoard();
-        }
-        else{
+        if (!validPosition) {
             Toast.makeText(this, R.string.advicePositionNotAvailable, Toast.LENGTH_SHORT).show();
+            return;
+        }
+
+        game.playPlayer2(row, column);
+        this.updateBoard();
+
+        if (game.isFinished()) {
+            Toast.makeText(this, game.getResult(), Toast.LENGTH_LONG).show();
+            return;
+        }
+
+        game.playPlayer1();
+        this.updateBoard();
+        if (game.isFinished()) {
+            Toast.makeText(this, game.getResult(), Toast.LENGTH_LONG).show();
+            return;
         }
     }
 

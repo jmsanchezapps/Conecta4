@@ -6,5 +6,10 @@
 
     <string name="contentDescription">Botones conecta 4</string>
     <string name="advicePositionNotAvailable">Posición no disponible</string>
+    <string name="title_activity_initial">Initial</string>
+
+    <string name="finishedPlay">Juego Terminado</string>
+    <string name="youLost">Has perdido</string>
+    <string name="youwin">Has ganado</string>
 
 </resources>
